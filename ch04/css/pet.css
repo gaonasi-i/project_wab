@@ -25,6 +25,15 @@ header h1{
     color: #fff;
     padding-left: 20px;
 }
+header h1 a{
+    color: #fff;
+    text-decoration:none;
+}
+header h1 a:hover{
+    background-color: #2fb2fb;
+    color: #fff;
+
+}
 nav ul{
     list-style: none;
     margin-right: 50px;
@@ -33,7 +42,7 @@ nav ul li{
     float: left;
     float: right;
 }
-a{
+ul li a{
     display: block;
     padding: 0 20px;
     color: #fff;
