@@ -1,4 +1,6 @@
 /* 전체 스타일 */
+
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap');
 *{
     margin: 0;
@@ -157,6 +159,9 @@ footer #bottomMenu{
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
+#package caption{
+    margin: 10px;
+}
 #package table, th, td{
     border: 1px solid #ccc;
     border-collapse: collapse;
@@ -194,25 +199,60 @@ td:first-child{
 .btn button{
     padding: 10px 15px;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 #profile{
-    margin: 0 30px;
+    margin: 0 auto;
+    font-family: Yeon Sung;
+    font-size: 20px;
+    padding: 0 30px;
+}
+#profile img{
+    border-radius: 10px;
+    border: 4px solid green;
 }
 #intro h1{
     margin: 20px 0;
     font-size: 30px;
-    font-family: 궁서체;
+}
+#profile h2{
+    color: gray;
+    margin: 10px;
 }
 #intro a{
     text-decoration: none;
     font-size: 20px;
     color: rgb(9, 92, 92);
 }
-#profile h2{
-    color: gray;
-    margin: 10px;
+#intro a:hover{
+    background-color: rgb(55, 121, 55);
+    color: #fff;
 }
 #skill, #career, ul li{
     list-style: none;
     line-height: 3;
+}
+/* ragster 스타일 */
+#ragster section h1{
+    text-align: center;
+    margin: 30px 10px;
+}
+#ragster #tbl_write{
+    margin: 10px auto 100px auto;
+    border: 1.5px solid #eee;
+    border-collapse: collapse;    
+}
+#tbl_write input[type="text"]{
+    width: 650px;
+    height: 25px;
+}
+#tbl_write textarea{
+    width: 650px;
+}
+#tbl_write input[type="submit"],
+[type="reset"]{
+    padding: 10px 20px;
+}
+#tbl_write tr:last-child{
+    text-align: center;
 }
