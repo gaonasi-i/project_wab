@@ -8,8 +8,8 @@ function setWatch(){
 }
 
 //배경 이미지 Change
-let picture = ["./imges/header1.jpg", "./imges/header2.jpg",
-"./imges/header3.jpg"];
+let picture = ["./images/header1.jpg", "./images/header2.jpg",
+"./images/header3.jpg"];
 
 let imgIdx = 0;
 

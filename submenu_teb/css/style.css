@@ -79,3 +79,60 @@ nav{
 #topMenu > li > ul > li > a:hover{
     color: rgb(194, 0, 0)
 }
+
+
+
+#contents{
+    width: 100%;
+    height: 800px;
+    margin-top: 100px;
+}
+#tabMenu{
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+}
+#tabMenu input[type="radio"]{
+    display: none;   
+}
+#tabMenu label{
+    padding: 15px 25px;
+    display: inline-block;
+    color: #ccc;
+}
+#tabMenu label:hover{
+    color: #222;
+}
+#tabMenu input:checked + label{
+    color: red;
+    border: 1px solid #ddd;
+    border-top-right-radius: 10px;
+    background: #eee;
+}
+.tabContent{
+    padding: 20px 0 0;
+    border-top: 1px solid #ddd;
+    display: none;
+}
+/*h2는 주석역활*/
+.tabContent h2{ 
+    display: none;
+}
+/* 멀리있는 형제 '~' 필드 */
+#tab1:checked ~ #notice{
+    display: block;
+}
+#tab2:checked ~ #gallery{
+    display: block;
+}
+#notice ul{
+    list-style: square;
+    margin-left: 30px;
+}
+#notice ul li{
+    line-height: 2.5;
+
+}
+#gallery ul li{
+    display: inline;
+}
